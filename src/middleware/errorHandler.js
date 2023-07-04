@@ -1,4 +1,3 @@
-const { DEBUG_MODE } = require("../config");
 const { ValidationError } = require("joi");
 const { JsonWebTokenError } = require("jsonwebtoken");
 const CustomErrorHandler = require("../helper/CustomErrorHandler");
