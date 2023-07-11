@@ -20,8 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: true,
-    credentials: true,
+    origin: "*", // Replace with the actual client URL
   })
 );
 app.use(compression());
